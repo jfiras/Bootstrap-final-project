@@ -101,7 +101,7 @@ function moveInvaders() {
 
     // Checking if the invaders touched the bottom of the border
     for (let i = 0; i < alienInvaders.length; i++) {
-        if (alienInvaders[i] > squares.length) {
+        if (alienInvaders[i] > (squares.length - width)) {
             resultsDisplay.innerHTML = "GAME OVER";
             clearInterval(invadersId);
         }
