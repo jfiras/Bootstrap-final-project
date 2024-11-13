@@ -64,3 +64,9 @@ function getResult() {
     }
     resultDisplay.innerHTML = result;
 }
+
+// Go back to the home page
+function goBack() {
+    window.location.href = "../index.html";
+}
+
