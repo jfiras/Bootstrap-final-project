@@ -12,7 +12,7 @@ $(document).ready(function() {
         } else if (game === 'Game 3') {
             gameLink = 'breakout/game3.html';
         } else if (game === 'Game 4') {
-            gameLink = 'space-invadors/game4.html';
+            gameLink = 'space-invaders/game4.html';
         }
 
         // Update the link dynamically
