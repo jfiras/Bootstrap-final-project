@@ -127,4 +127,9 @@ function flipCard() {
     }
 }
 
+// Go back to the home page
+function goBack() {
+    window.location.href = "../index.html";
+}
+
 

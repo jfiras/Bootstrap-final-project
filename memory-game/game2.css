@@ -1,6 +1,47 @@
-#grid {
-    width: 400px;
-    height: 300px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#result {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust number of columns */
+    gap: 10px;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#go-back {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-top: 80px;
+    border-radius: 5px;
+    cursor: pointer;
 }
