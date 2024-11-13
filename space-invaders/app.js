@@ -156,3 +156,8 @@ function shoot(event) {
 
 document.addEventListener("keydown", shoot);
 
+// Go back to the home page
+function goBack() {
+    window.location.href = "../index.html";
+}
+
