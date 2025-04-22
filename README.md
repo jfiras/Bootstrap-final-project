@@ -27,6 +27,7 @@
 1. Clone the repository  
    ```bash
    git clone https://github.com/jfiras/gamehub.git
+2. Open index.html in your browser or host it using any static server.
 
 ## 📝 License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
