@@ -26,7 +26,7 @@
 ## 📁 Getting Started
 1. Clone the repository  
    ```bash
-   git clone https://github.com/jfiras/gamehub.git
+   git clone https://github.com/jfiras/GameHub.git
 2. Open index.html in your browser or host it using any static server.
 
 ## 📝 License
